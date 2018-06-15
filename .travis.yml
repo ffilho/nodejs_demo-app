@@ -1,8 +1,11 @@
+# Infrastructure parameters
 language: node_js
 node_js:
   - "node"
   
-# Deploy na Heroku
+script: true
+  
+# Heroku deployment
 deploy:
   provider: heroku
   api-key: 
