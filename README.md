@@ -15,3 +15,14 @@ Procfile: pecifies the commands that are executed by the app’s Heroku's dynos
 4. package.json file
 5. sync travis
 6. Procfile
+
+
+https://softwareengineering.stackexchange.com/questions/163506/how-does-one-handle-sensitive-data-when-using-github-and-heroku
+https://developer.spotify.com/documentation/web-api/quick-start/
+https://docs.travis-ci.com/user/deployment/heroku/
+https://devcenter.heroku.com/articles/deploying-nodejs
+https://devcenter.heroku.com/articles/getting-started-with-nodejs#define-a-procfile
+https://devcenter.heroku.com/articles/nodejs-support
+https://github.com/dwyl/learn-travis
+https://openclassrooms.com/courses/ultra-fast-applications-using-node-js/creating-your-first-app-with-node-js
+https://medium.com/code-prestige/deployando-seu-projeto-em-node-js-no-heroku-b49a6ae7dbc3
