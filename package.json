@@ -1,0 +1,15 @@
+{
+  "name": "nodejs_demo-app",
+  "description": "Simple Node.js application intended to test a DevOps pipeline between GitHub, Travis and Heroku.",
+  "author": "ff",
+  "version": "0.0.7",
+  "engines": {
+    "node": "8.9.4"
+  },
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "scripts": {
+    "test": "jshint hello.js"
+  }
+}
