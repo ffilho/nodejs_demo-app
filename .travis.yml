@@ -10,4 +10,4 @@ deploy:
   provider: heroku
   api-key: 
     secure: $HEROKU_API_KEY
-  app: listero
+  app: nodejs-demo-ff
