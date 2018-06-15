@@ -7,3 +7,11 @@ Simple Node.js application intended to test a DevOps pipeline between GitHub, Tr
 .travis.yml: Travis-CI integration
 server.js: Demo application
 package.json: Heroku Node.js support and configuration file
+Procfile: pecifies the commands that are executed by the app’s Heroku's dynos
+
+1. Github repo (w/ license)
+2. .travis.yml file
+3. App server.js
+4. package.json file
+5. sync travis
+6. Procfile
