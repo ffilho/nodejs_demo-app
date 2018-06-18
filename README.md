@@ -79,36 +79,36 @@ First of all, let me introduce you my main motivation in writing this up:
 Picture yourself as a old-fashion developer, trying to see how things works on this brave 
 new world or else as newbie, full of will and doubts about how, where and when. Despites 
 the vast content available all over Internet, you'll have to grab a little from here, 
-another from there and at the end you may end with more doubts than when you first started.
+another from there **and at the end you may end with more doubts than when you first started.**
 
-> The first scenario: that's my case. I quit coding around 2007 didn't updated none of my 
-programming skills since then - until now.
+> **The first scenario: that's my case.** I quit coding around 2007 didn't updated none of my 
+programming skills since then - _until now._
 
-It's not about absence of information. It's all about the excess of good and scattered 
-information and how they're presented to people who are urging to learn.
+It's not about absence of information. It's all about the **excess of good and scattered 
+information** and how they're presented to people who are urging to learn.
 
 If you're (again) like me, the type of people that like to see things working 
 first and then aim to specific doubts to better understand its inner works, you may be in 
-trouble - until now.
+trouble - _until now._
 
 >I wanted to learn about Node.js and I learnt.
 I wanted to learn about DevOps and I learnt, also.
-I wanted to put both things together, in a simple way and I didn't find nothing at all about 
-it!
+I wanted to put both things together, in a simple way and **I didn't find nothing at all about 
+it!**
 
 Every single article or tutorial that I found lead me to complex environment or a too simple 
-example on a particular tool. Always too shallow or too deep - never on right size for my 
+example on a particular tool. **Always too shallow or too deep** - never on right size for my 
 curiosity.
 
 That's my main concern in this specific scope regards about how information is presented to 
-the public. I truly believe that it may be presented in a much more teaching way, replacing 
-all information excess with a richer approach over the whole subject.
+the public. I truly believe that it may be presented in a _much more teaching way, replacing 
+all information excess with a richer approach over the whole subject_.
 
 Sometimes, you just wanna test a new concept or idea, from the beginning to the end, just 
-to see something working. And that's the case here.
+to see something working. **And that's the case here**.
 
 This tutorial won't make you a specialist on any subject but I assure you that you'll be 
-much more confident on any of its topic after completing it.
+**much more confident** on any of its topic after completing it.
 
 > Furthermore, is better to know where to start and end rather search all over Internet, 
 gluing answers togheter to fit your needs.
