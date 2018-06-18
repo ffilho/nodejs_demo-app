@@ -14,7 +14,7 @@
 	
 </div>
 
-A quick guide for a full operational **DevOps** pipeline for beginners.
+A quick guide for a full operational **DevOps** pipeline for complete beginners.
 
 ##  Index
 
@@ -58,9 +58,9 @@ A quick guide for a full operational **DevOps** pipeline for beginners.
 For this tutorial, I'll assume that you'll have, at least:
 
 - **Theory**: very basic knowledge about DevOps (meaning, purpose and main characteristcs);
-- **Infrastructure**: a place to play around, like a local workstation or SaaS where you can deploy a git installation;
-- **CLI**: let's assume that you can operate your own git instance (pull, commit and push at least);
-- **Code**: it's nice to have some programming background;
+- **Infrastructure**: a place to play around like a workstation or SaaS where you can deploy a git installation;
+- **CLI**: ability to operate your own git instance (pull, commit and push at least);
+- **Code**: some programming background (JavaScript is nice in this case!);
 - **Patience**: node.js sometimes can be harsh;
 - **Time**: keep in mind that CI/CI can be challenging sometimes.
 
@@ -69,3 +69,36 @@ a quick-start guide for beginners. If you aren't a newcomer to DevOps you may fi
 
 <a name="intro"></a>
 ## Intro
+
+Assuming that you are - **as I am** - a complete beginner in all this DevOps thing, I'll clarify some subjects here, trying to make things a little straightforward to you.
+First of all, let me introduce you my main motivation in writing this up:
+
+Picture yourself as a old-fashion developer, trying to see how things works on this brave new world or else as newbie, full of will and doubts about how, where and when. Despites the vast content available all over Internet, you'll have to grab a little from here, another from there and at the end you may end with more doubts than when you first started.
+
+> The first scenario: that's my case. I quit coding around 2007 didn't updated none of my programming skills since then - until now.
+
+It's not about absence of information. It's all about the excess of good and scattered information and how they're presented to people who are urging to learn.
+
+If you're (again) like me, the type of people that like to see things working first and then aim to specific doubts to better understand its inner works, you may be in trouble - until now.
+
+>I wanted to learn about Node.js and I learnt.
+I wanted to learn about DevOps and I learnt, also.
+I wanted to put both things together, in a simple way and I didn't find nothing at all about it!
+
+Every single article or tutorial that I found lead me to complex environment or a too simple example on a particular tool. Always too shallow or too deep - never on right size for my curiosity.
+
+That's my main concern in this specific scope regards about how information is presented to the public. I truly believe that it may be presented in a much more teaching way, replacing all information excess with a richer approach over the whole subject.
+
+Sometimes, you just wanna test a new concept or idea, from the beginning to the end, just to see something working. And that's the case here.
+
+This tutorial won't make you a specialist on any subject but I assure you that you'll be much more confident on any of its topic after completing it.
+
+> Furthermore, is better to know where to start and end rather search all over Internet, gluing answers togheter to fit your needs.
+
+That said, in this tutorial you'll learn:
+- The basic about DevOps pipelines;
+- Some cool stuff about support tools;
+- Continous Integration and Continous Delivery;
+- A nice "Hello World" program with Node.js.
+
+Having this knowledege you'll be able to set **your own automated DevOps pipeline encompassing GitHub and your own Node.js application with Travis-CI and Heroku!** Isn't cool? So, lets get our hands dirty!
