@@ -125,4 +125,48 @@ encompassing GitHub and your own Node.js application with Travis-CI and Heroku!*
 Isn't cool? So, lets get our hands dirty!
 
 <a name="devops-basics"></a>
-### DevOps 101:
+### DevOps 101
+
+DevOps stands to nothing but best practices pack related to operations and development, focused
+on improved communication and collaboration between whole IT ecosystem, composed both by IT 
+professionals, developers and support staff, being it aimed exclusively on better product delivery.
+
+In other words, DevOps is a culture proposed to tune whole IT ecosystem to deliver products in a 
+rapid, cheaper, more consistent and real-propose aligned way.
+
+It's all about that old concept where we need to improve the means to better deliver in the ends. 
+Also, It isn't related to any specific tool or vendor being just a concept, more like an idea focused 
+on applications and services lifecycle.
+
+If you won't believe me, go around and Google a little about some cool DevOps definitions and you 
+realize that in the end it will relate to none beyond that previosly spoken.
+
+>Wan't see?
+**Amazon:** <a href="https://aws.amazon.com/devops/what-is-devops/">https://aws.amazon.com/devops/what-is-devops/</a>
+**Wikipedia:** <a href="https://en.wikipedia.org/wiki/DevOps">https://en.wikipedia.org/wiki/DevOps</a>
+**Gartner:** <a href="https://www.gartner.com/it-glossary/devops">https://www.gartner.com/it-glossary/devops</a>
+**Atlasian:** <a href="https://www.atlassian.com/devops">https://www.atlassian.com/devops</a>
+
+It's nice to say that DevOps has its origins on movements like Agile Manifesto and Lean, being it both 
+disruptive and delivery focused.
+
+In wich concern Lean and shop floors is common to eliminate wasteful tasks to optimize deliveries, aiming
+on less operationals costs and more quality on final product. This mindset prevails also on IT department, 
+allowing different teams to work as a clock towards quality, delivering quality on every product on a daily 
+(sometimes hourly) basis.
+
+While Lean is focused on improvement at delivery, Agile Manifesto helped software development with - what 
+can I say - agility? Yes, a lot of this.
+By breaking down every single paradigm related with software development, Agile gave us with velocity to 
+understand, prototype, code, test and deliver as never seen before.
+
+This methods (among other methods and methodologies not related here) were around for a long time, being 
+used for specific purposes - none of they related to put IT team altogether aiming to improve delivery.
+
+By having that methods and a lot of support tools to deploy them, DevOps concept went naturally over years, 
+but not until 2003 when Google decide to converge a lot of things together to create it's own way to manage 
+their infrastructure, creating what will be DevOps embryo: Google Site Reliability Engineering.
+
+After that, Google made SRE public on book format (available here <a href="https://landing.google.com/sre/
+book.html">https://landing.google.com/sre/book.html</a>) and DevOps concept were born, being constantly 
+updated overtime, thanks to community and several support tools created to make things even easier.
