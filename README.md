@@ -67,7 +67,7 @@ a git installation;
 
 > **Disclaimer:** This tutorial is far, far away for being a full reference on 
 any shown technology or tool, being only a quick-start guide for beginners. 
-If you aren't a newcomer to DevOps you may find it boring as death. You've been warned.
+If you aren't a newcomer to DevOps you may find it boring to death. You've been warned.
 
 <a name="intro"></a>
 ## Intro
@@ -121,4 +121,8 @@ That said, in this tutorial you'll learn:
 
 Having this knowledege you'll be able to set **your own automated DevOps pipeline 
 encompassing GitHub and your own Node.js application with Travis-CI and Heroku!** 
+
 Isn't cool? So, lets get our hands dirty!
+
+<a name="devops-basics"></a>
+### DevOps 101:
