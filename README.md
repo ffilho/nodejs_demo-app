@@ -132,7 +132,7 @@ encompassing GitHub and your own Node.js application with Travis-CI and Heroku!*
 Isn't cool? So, lets get our hands dirty!
 
 <a name="devops-basics"></a>
-### DevOps 101 ([back to index](#index))
+### DevOps 101 <sub>([back to index](#index))</sub>
 
 DevOps stands to nothing but a **best practices pack**, related to **operations and development**, 
 focused on **improved communication and collaboration between whole IT ecosystem**. I mean by ecosystem 
@@ -154,9 +154,9 @@ realize that in the end it will relate to none beyond that previosly spoken.
 
 > For your convenience, I've made the Googling bellow:  
 > **Amazon:** [https://aws.amazon.com/devops/what-is-devops/](https://aws.amazon.com/devops/what-is-devops/)  
-> **Wikipedia:** [https://en.wikipedia.org/wiki/DevOps](https://en.wikipedia.org/wiki/DevOps)
-> **Gartner:** [https://www.gartner.com/it-glossary/devops](https://www.gartner.com/it-glossary/devops)
-> **Atlasian:** [https://www.atlassian.com/devops](https://www.atlassian.com/devops)
+> **Wikipedia:** [https://en.wikipedia.org/wiki/DevOps](https://en.wikipedia.org/wiki/DevOps)  
+> **Gartner:** [https://www.gartner.com/it-glossary/devops](https://www.gartner.com/it-glossary/devops)  
+> **Atlasian:** [https://www.atlassian.com/devops](https://www.atlassian.com/devops)  
 
 It's nice to say that DevOps has its origins on movements like **Agile Manifesto<sup>1</sup>** and **Lean<sup>2</sup>**, being it **both 
 disruptive and delivery focused by its on nature**.
