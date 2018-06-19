@@ -132,7 +132,7 @@ encompassing GitHub and your own Node.js application with Travis-CI and Heroku!*
 Isn't cool? So, lets get our hands dirty!
 
 <a name="devops-basics"></a>
-### DevOps 101 (<a name="#index">back to index</a>)
+### DevOps 101 ([back to index](#index))
 
 DevOps stands to nothing but a **best practices pack**, related to **operations and development**, 
 focused on **improved communication and collaboration between whole IT ecosystem**. I mean by ecosystem 
