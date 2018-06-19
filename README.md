@@ -219,56 +219,82 @@ And that's it! So, let's open the box to check what's inside.
 <a name="pipelines"></a>
 ### Pipelines <sup>([back to index](#index))</sup>
 
-At this point, you may be asking "where do I begin", right? The very first stone must be put over a specific knowledege: pipelines.
-And, what the heck is a pipeline? Well, it's like a workflow, but without a lot of conditional fluxes within, being (almost) straight from beginning to the end.
+At this point, you may be asking "*where do I begin*", right? The very first stone must be put over a specific 
+knowledege: **pipelines**.
+*And, what the heck is a pipeline?* Well, it's like a workflow, but without a lot of conditional fluxes within, 
+being (almost) **straight from beginning to the end**.
 
-What I've just said could seem a little out of scope by now, but keep in mind this concept before we start to discuss about pipelines in concecpt DevOps.
+>What I've just said could seem a little out of scope by now, but keep in mind this concept before we start to  
+discuss about pipelines in concecpt DevOps.
 
-In short the major DevOps goal is:
-a. take a real life problem and turn it into a requirement via Agile methods,
-b. allowing people to develop some code intended to solve that problem,
-c. deliver a usable product on shortest possible time via automation and active monitoring, 
-d. allowing problem owners to check if that could be solved using provided code.
+**In short the major DevOps goal is:**
+**a.** take a real life problem and turn it into a requirement via Agile methods,
+**b.** allowing people to develop some code intended to solve that problem,
+**c.** deliver a usable product on shortest possible time via collaboration, automation and active monitoring, 
+**d.** allowing problem owners to check if that could be solved using provided code.
 
-Take a look at the flow: there's no conditional in this case. It really look a lot like a pipeline, right?
+Take a look at the flow: **there's no conditional in this case**. It really look a lot like a pipeline, right?
 
-That's the goal, understand some key steps within software development cycle to glue them up with Agile methodologies, automation and monitoring to create a collaborative pipeline between all areas related with software development, being that responsible for coding or not.
+That's the goal: understand some key steps within software development cycle to glue them up with Agile methodologies, 
+automation and monitoring to **create a collaborative pipeline between all areas related with software development, being 
+that responsible for coding or not**.
 
 In order to achieve this, you must be able to respond with effectiveness to some key characteristics, like:
-- Manage your infrastructure with promptness, having a Agile Infrastructure available, ready to provision whenever needed;
-- Have your Agile Infrastructure builded and managed throught code, in order words, make use of IaC not only to deploy but to mantain any existing server;
-- Identify and respond to customer needs via Agile methodologies;
-- Make use of Countinuos Integration (CI) and Continous Delivery (CD) platforms to automate every single piece of work needed both on infrastructure and coding;
-- And, sometimes, have a mechanism called Continous Deployment that allows managers and/or customers to deliver software over production whenever they want to, giving they more control about realeases.
+- Manage your infrastructure with promptness, having a **Agile Infrastructure** available, ready to **provision** whenever needed;
+- Have your Agile Infrastructure **builded and managed throught code**, in order words, make use of **IaC** not only to deploy but 
+to mantain any existing server;
+- Identify and **respond to customer needs via Agile methodologies**;
+- Make use of **Countinuos Integration (CI)** and **Continous Delivery (CD)** platforms to **automate every single piece of work**
+needed both on infrastructure and coding;
+- And, sometimes, have a mechanism called **Continous Deployment** that deliver software on production in a blink of an eye.
 
-> Note that's the only conditional case over a DevOps pipeline. Sometimes, you may need a approval chain in order to mantain traceability and assure quality to deliveries.
+> Note that Continuous Deployment makes a straight fowaerd DevOps pipeline. In other cases, without it, you may need a approval chain in order 
+to mantain traceability and assure quality to deliveries, being this the only conditional step on your pipeline.
 
-Wonderful, now you got the concept about pipelines. So, it's time to take a step backward to introduce you the CAMS concept, that stands of Culture, Automation, Measurement and Sharing, being those the core values of the DevOps Movement.
+Wonderful, now you got the concept about pipelines! So, it's time to take a step backward to introduce you the **CAMS 
+concept**, that stands of **Culture, Automation, Measurement and Sharing**, being those the **core values** of the DevOps Movement.
 
-- Culture: Extreme collaboration between peers to create a unique working-force enconpassing both operational and coding staff, aimed on final product quality improvements.
-- Automation: Use of automation tools at large to create automated pipelines for software development lifecycle whenever needed.
-- Measurement: Metrics everywhere, everytime, everyday. Measure everything to identify wastes and tune, even more, your software development lifecycle and consequently your pipelines.
-- Sharing: Give (and be expect to hear) a lot of feedback about anything related to your software development lifecycle. Responsability sharing is also welcomed, allowing people to focus on value-added tasks only.
+- **Culture**: Extreme collaboration between peers to create a unique working-force enconpassing both operational and 
+coding staff, aimed on final product quality improvements.
+- **Automation**: Use of automation tools at large to create automated pipelines for software development lifecycle 
+whenever needed.
+- **Measurement**: Metrics everywhere, everytime, everyday. Measure everything to identify wastes and tune, even more, 
+your software development lifecycle and consequently your pipelines.
+- **Sharing**: Give (and be expect to hear) a lot of feedback about anything related to your software development 
+lifecycle. Responsability sharing is also welcomed, allowing people to focus on value-added tasks only.
 
-Knowing about pipelines is cool and even make more sense when you start thinking about how the whole IT ecosystem must cooperate in order to share both skills and hard work to improve even more software development. That's what DevOps are about!
+> Knowing about pipelines is cool and even make more sense when you start thinking about how the whole IT ecosystem  
+> must cooperate in order to share both skills and hard work to improve even more software development. That's  
+> what DevOps are about! 
 
 With all that on mind, it's even more easy to look at this flow and feel very, very comfortable:
 
-So, let's go a little deeper into pipelines. I want discuss a little about what a development pipeline (which we'll deploy later on this tutorial) would look like.
+IMAGE
 
-Remember pipelines goal? It's delivery a product, from coding to production, making use of all previouslly discussed perks, right? Right.
+So, let's go a little deeper into pipelines. I want discuss a little about what a **development pipeline** (which 
+we'll deploy later on this tutorial) would look like.
+Remember pipelines goal? **It's delivery a product, from coding to production, making use of all previouslly 
+discussed perks, right?** Right.
 
-Knowing this, you (and your peers) may have to write a code, manage it via some SCM (Source Code Management) like GitHub, perform tests (both unity and integration), save the artifacts over a repository to then, if applicable, deploy it over production environment - end-to-end.
+Knowing this, you (and your peers) may have to **write a code**, **manage it via some SCM** (Source Code Management) 
+like GitHub, **perform tests** (both unity and integration), save the artifacts over a **repository** to then, if 
+applicable, **deploy it over production** environment - *end-to-end, baby*.
 
-All this process must be automated, having different competences working togheter, encompassing from developer, testing, security, operations and even managers.
+All this process must be automated, having different competences working togheter, from developer, testing, security, 
+operations and even managers.
 
-For all this to happen, in this specific scenario, your pipeline will have to be align with our business model, making use of specific milestones overtime:
+For all this to happen, in this specific scenario, your pipeline will have to be align with our business model, 
+making use of specific milestones overtime:
 
 IMAGEM
 
-A good pipeline must have unique features allowing it to be:
-- Versatile: version oriented workflows, allowing it to be reused or customized whenever needed, being also capable of integrate with different services and tools.
-- Safe: Built to restrict accesses based on user profiles according to its phases and actions and never - I repeat - never make use of cleartext or hardcoded credentials, tokens, keys among others.
-- Friendly: Customizable notifications for every single pipeline phase.
-- Traceable: Provide means to monitor phases and stages, including metrics to identify failures and wastes. Don't forget that event logs are also important to this matter.
+Furthermore, a good pipeline must have unique features allowing it to be:
+- **Versatile**: version oriented workflows, allowing it to be reused or customized whenever needed, being also 
+capable of integrate with different services and tools.
+- **Safe**: Built to restrict accesses based on user profiles according to its phases and actions and never - I 
+repeat - never make use of cleartext or hardcoded credentials, tokens, keys among others.
+- **Friendly**: Customizable notifications for every single pipeline phase.
+- **Traceable**: Provide means to monitor phases and stages, including metrics to identify failures and wastes. 
+Don't forget that event logs are also important to this matter.
 
+And we're done. Time for us to discuss a little about **technical gear**, shall we? #coolstuffahead
