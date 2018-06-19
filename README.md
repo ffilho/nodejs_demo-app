@@ -14,8 +14,9 @@
 	
 </div>
 
-A quick guide for a full operational **DevOps** pipeline for complete beginners.
-<sub>To whom it may concern technical part starts on chapter 4... Mr. Know it all.</sub>
+A quick guide for a fully operational **DevOps pipeline** for complete beginners.
+
+<sub>To whom it may concern, technical part starts on [chapter 4](#pt1-stack)... Mr. Know it all.</sub>
 
 ##  Index <a name="index"></a>
 
