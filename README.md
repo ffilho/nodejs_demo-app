@@ -18,39 +18,39 @@ A quick guide for a full operational **DevOps** pipeline for complete beginners.
 
 ##  Index
 
-1.  [Assumptions](#assumptions)
-2.  [Intro](#intro)
+1.  [**Assumptions**](#assumptions)
+2.  [**Intro**](#intro)
     1.  [DevOps 101](#devops-basics)
     2.  [About pipelines](#pipelines)
     3.  [Tools](#tools)
-3.  [Basics](#basics)
+3.  [**Basics**](#basics)
     1.  [Environment](#environment)
     2.  [Integration](#integration)
     3.  [Infrastructure](#infrastructure)
     4.  [Code](#code)
-4.  [Getting your hands dirty pt. I - Stack](#pt1-stack)
+4.  [**Getting your hands dirty pt. I - Stack**](#pt1-stack)
     1.  [Accounts setup](#pt1-accounts)
     2.  [IDE integration](#pt1-ide)
     3.  [Travis-CI integration](#pt1-travis)
     4.  [Heroku integration](#pt1-heroku)
-5.  [Getting your hands dirty pt. II - Coding](#pt2-coding)
+5.  [**Getting your hands dirty pt. II - Coding**](#pt2-coding)
     1.  [Node.js basics](#pt2-basics)
     2.  [Hello World!](#pt2-hello-world)
     3.  [A little deep into Node.js](#pt2-deep-into-node)
     4.  [Deploying on GitHub](#pt2-deploying)
-6.  [Getting your hands dirty pt. III - CI/CD](#ptIII-ci-cd)
+6.  [**Getting your hands dirty pt. III - CI/CD**](#ptIII-ci-cd)
     1.  [Travis-CI basics](#ptIII-basics)
     2.  [Defining your infrastructure](#ptIII-infrastructure)
     3.  [Code specificities on Travis-CI](#ptIII-specificities)
     4.  [Defining your test](#ptIII-test)
-7.  [Getting your hands dirty pt. IV - PaaS](#ptiv-paas)
+7.  [**Getting your hands dirty pt. IV - PaaS**](#ptiv-paas)
     1.  [Heroku basics](#ptiv-baiscs)
     2.  [How the band plays](#ptiv-about)
     3.  [Integrating your Travis-CI repo with Heroku](#ptiv-integration)
     4.  [A little more of Heroku](#ptiv-more)
-8.  [Recap, coffee and contemplation](#recap)
-9.  [Pulling the trigger!](#pull-the-trigger)
-10.  [Credits, references and more](#credits)
+8.  [**Recap, coffee and contemplation**](#recap)
+9.  [**Pulling the trigger!**](#pull-the-trigger)
+10.  [**Credits, references and more**](#credits)
 
 <a name="assumptions"></a>
 ## Assumptions
@@ -73,45 +73,52 @@ If you aren't a newcomer to DevOps you may find it boring to death. You've been 
 ## Intro
 
 Assuming that you are, as I am, **a complete beginner in all this DevOps thing**, I'll 
-clarify some subjects here, trying to make things a little straightforward to you.
-First of all, let me introduce you my main motivation in writing this up:
+clarify some subjects before we begin, trying to make things a little straightforward to you.
 
-Picture yourself as a old-fashion developer, trying to see how things works on this brave 
-new world or else as newbie, full of will and doubts about how, where and when. Despites 
+First of all, let me introduce you **my main motivation** in writing this up:
+
+Picture yourself as a old-fashion developer, trying to check how things works on this brave 
+new world or maybe as a newbie, full of will and doubts about how, where and when. Despites 
 the vast content available all over Internet, you'll have to grab a little from here, 
 another from there **and at the end you may end with more doubts than when you first started.**
 
-> **The first scenario: that's my case.** I quit coding around 2007 didn't updated none of my 
-programming skills since then - _until now._
+> **The first scenario - that's my case.** I quit coding around 2007 didn't updated none of my 
+programming skills since then - _shame on me._
 
-It's not about absence of information. It's all about the **excess of good and scattered 
-information** and how they're presented to people who are urging to learn.
+It's not about absence of information. It's all about the **excess of good information and 
+how it is scattered all around**. And it can be even worst when you realize that **real good 
+technical material is presented in a very bad teaching way.**
 
-If you're (again) like me, the type of people that like to see things working 
-first and then aim to specific doubts to better understand its inner works, you may be in 
-trouble - _until now._
+>Do the math: excess plus scattering, multiplied by lack of empathy equals "I quit".
+
+How you can support learning if most part people of your readers **give up on learning due 
+overwork trying to understand what to learn**?
 
 >I wanted to learn about Node.js and I learnt.
-I wanted to learn about DevOps and I learnt, also.
-I wanted to put both things together, in a simple way and **I didn't find nothing at all about 
+>I wanted to learn about DevOps and I learnt, also.
+>I wanted to put both things together, in a simple way and **I didn't find nothing at all about 
 it!**
 
-Every single article or tutorial that I found lead me to complex environment or a too simple 
-example on a particular tool. **Always too shallow or too deep** - never on right size for my 
-curiosity.
+Every single article or tutorial that I found lead me to a complex environment explanation or to
+a very, very simple simple example on a particular tool. **Always too shallow or too deep** - never 
+on right size for my curiosity.
 
-That's my main concern in this specific scope regards about how information is presented to 
-the public. I truly believe that it may be presented in a _much more teaching way, replacing 
-all information excess with a richer approach over the whole subject_.
+I truly believe that information may be presented in a **much more teaching way**, replacing all information 
+excess with a richer approach over the whole subject, allowing my readers to **decide wich tool or 
+technology is better for their own needs**. 
 
-Sometimes, you just wanna test a new concept or idea, from the beginning to the end, just 
-to see something working. **And that's the case here**.
+>I'll have to use some tools in this case, but if you focus on **why's and how's** and never on **where**, you 
+will do great **whatever stack** you choose.
 
-This tutorial won't make you a specialist on any subject but I assure you that you'll be 
-**much more confident** on any of its topic after completing it.
+If you're (again) like me, the type of people that like to see things **working first, this tutorial was 
+written to you!** You will learn the basics to deploy your very first DevOps pipeline **from scratch to success**, 
+identifying among all topics shown here which ones you like most and others that will **subject of further studying**.
 
-> Furthermore, is better to know where to start and end rather search all over Internet, 
-gluing answers togheter to fit your needs.
+Note that this tutorial won't make you a specialist on any subject but I assure you that you'll be **much more 
+confident** on any of its topic after completing it.
+
+> Furthermore, is better to know where to start and end rather search all over Internet, gluing answers togheter 
+to fit your needs, right?
 
 That said, in this tutorial you'll learn:
 - The basic about DevOps pipelines;
@@ -127,46 +134,60 @@ Isn't cool? So, lets get our hands dirty!
 <a name="devops-basics"></a>
 ### DevOps 101
 
-DevOps stands to nothing but best practices pack related to operations and development, focused
-on improved communication and collaboration between whole IT ecosystem, composed both by IT 
-professionals, developers and support staff, being it aimed exclusively on better product delivery.
+DevOps stands to nothing but a **best practices pack**, related to **operations and development**, 
+focused on **improved communication and collaboration between whole IT ecosystem**. I mean by ecosystem 
+something composed by all kinds of IT staff like infrastructure, developers, support and so on, being 
+**DevOps purpose to provide better product delivery**.
 
-In other words, DevOps is a culture proposed to tune whole IT ecosystem to deliver products in a 
-rapid, cheaper, more consistent and real-propose aligned way.
+In other words, DevOps is a **culture proposed to tune whole IT ecosystem to deliver products in a 
+rapid, cheaper, more consistent and business aligned way**.
 
-It's all about that old concept where we need to improve the means to better deliver in the ends. 
-Also, It isn't related to any specific tool or vendor being just a concept, more like an idea focused 
-on applications and services lifecycle.
+If you ask me how to summarize it on a single sentence it will be: **It's all about that old concept that 
+claims us to to improve the means to better deliver at the ends** - *but in new clothing, customized for 
+todays reality*.
+
+Also, it's important to mention **DevOps isn't related to any specific tool or vendor**, being a concept 
+focused on applications and services lifecycle.
 
 If you won't believe me, go around and Google a little about some cool DevOps definitions and you 
 realize that in the end it will relate to none beyond that previosly spoken.
 
->Wan't see?
-**Amazon:** <a href="https://aws.amazon.com/devops/what-is-devops/">https://aws.amazon.com/devops/what-is-devops/</a>
-**Wikipedia:** <a href="https://en.wikipedia.org/wiki/DevOps">https://en.wikipedia.org/wiki/DevOps</a>
-**Gartner:** <a href="https://www.gartner.com/it-glossary/devops">https://www.gartner.com/it-glossary/devops</a>
-**Atlasian:** <a href="https://www.atlassian.com/devops">https://www.atlassian.com/devops</a>
+>For your convenience, I've made the Googling bellow:
+>**Amazon:** <a href="https://aws.amazon.com/devops/what-is-devops/">https://aws.amazon.com/devops/what-is-devops/</a>
+>**Wikipedia:** <a href="https://en.wikipedia.org/wiki/DevOps">https://en.wikipedia.org/wiki/DevOps</a>
+>**Gartner:** <a href="https://www.gartner.com/it-glossary/devops">https://www.gartner.com/it-glossary/devops</a>
+>**Atlasian:** <a href="https://www.atlassian.com/devops">https://www.atlassian.com/devops</a>
 
-It's nice to say that DevOps has its origins on movements like Agile Manifesto and Lean, being it both 
-disruptive and delivery focused.
+It's nice to say that DevOps has its origins on movements like **Agile Manifesto** and **Lean**, being it **both 
+disruptive and delivery focused by its on nature**.
 
-In wich concern Lean and shop floors is common to eliminate wasteful tasks to optimize deliveries, aiming
-on less operationals costs and more quality on final product. This mindset prevails also on IT department, 
-allowing different teams to work as a clock towards quality, delivering quality on every product on a daily 
-(sometimes hourly) basis.
+In wich concern Lean and factories, is common to **eliminate wasteful tasks to optimize deliveries, aiming less 
+operationals costs and more quality on final product**.
+This mindset prevails when taken to IT department, allowing different teams to work as a clock towards quality, 
+always delivering quality on every single product on a daily (sometimes hourly) basis.
 
 While Lean is focused on improvement at delivery, Agile Manifesto helped software development with - what 
-can I say - agility? Yes, a lot of this.
-By breaking down every single paradigm related with software development, Agile gave us with velocity to 
-understand, prototype, code, test and deliver as never seen before.
+can I say... **agility? Yes, a lot of this**.
+By breaking down every single paradigm related with software development, **Agile gave us with speed to 
+understand, prototype, code, test and deliver as never seen before**.
 
-This methods (among other methods and methodologies not related here) were around for a long time, being 
+>This methods (*among other methods and methodologies not related here*) were around for a long time, being 
 used for specific purposes - none of they related to put IT team altogether aiming to improve delivery.
 
-By having that methods and a lot of support tools to deploy them, DevOps concept went naturally over years, 
-but not until 2003 when Google decide to converge a lot of things together to create it's own way to manage 
-their infrastructure, creating what will be DevOps embryo: Google Site Reliability Engineering.
+With all that methods in one hand and a lot of support tools on another, it was just a matter of time to put 
+everything togheter and let DevOps concept occured naturally.
+And that was what really happend on 2003 when **Google decide to converge a lot of things together to create 
+it's own way to manage their infrastructure**, creating what will be DevOps embryo: **Google Site Reliability 
+Engineering**.
 
-After that, Google made SRE public on book format (available here <a href="https://landing.google.com/sre/
-book.html">https://landing.google.com/sre/book.html</a>) and DevOps concept were born, being constantly 
-updated overtime, thanks to community and several support tools created to make things even easier.
+> You can check SRE out, for free, on this link: <a href="https://landing.google.com/sre/
+book.html">https://landing.google.com/sre/book.html</a>
+
+Later that year Google made SRE public on book format kick-starting what we know as DevOps today. That allowed 
+individuals to **understand how to use it on its own premisses**, making it a great alternative to improve delivery 
+performance and product quality when compared to old-fashioned models.
+
+Today it's being constantly updated thanks to the community, supporting IT operations all over the globe - *go on, 
+Google it*.
+
+And that's it! Enough with history by now. Let's open the box to see what's inside.
