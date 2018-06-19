@@ -16,7 +16,7 @@
 
 A quick guide for a full operational **DevOps** pipeline for complete beginners.
 
-##  Index
+##  Index <a name="index"></a>
 
 1.  [**Assumptions**](#assumptions)
 2.  [**Intro**](#intro)
@@ -132,7 +132,7 @@ encompassing GitHub and your own Node.js application with Travis-CI and Heroku!*
 Isn't cool? So, lets get our hands dirty!
 
 <a name="devops-basics"></a>
-### DevOps 101
+### DevOps 101 (<a name="#index">back to index</a>)
 
 DevOps stands to nothing but a **best practices pack**, related to **operations and development**, 
 focused on **improved communication and collaboration between whole IT ecosystem**. I mean by ecosystem 
