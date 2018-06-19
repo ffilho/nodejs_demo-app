@@ -305,8 +305,18 @@ And we're done about theory this time. Time for us to discuss a little about tec
 Do you remeber that milestones that we'v spoken before? Remember also about Agile, CI/CD and stuff? Fine! It's time to pin 
 technology over teory, showing you where we should use some cool tools like GitHub, Travis and Heroku, among others.
 
-**1st. - Collaboration**: The very first step must rely on tools to encourage collaboration and idea sharing between peers. ]
-It may count both with planning and communication tools.
+**1st. - Collaboration**: The very first step must rely on tools to **encourage collaboration and idea sharing between peers**, 
+counting both with planning and communication tools. 
+
+> For our example we'll use **GitHub's bult-in project tool**, that works like **Kanban** allowing us to plan and track every single activity  
+> related with this tutorial. A communication tools isn't necessary for our tutorial, being a little non-sense to chat alone.  
+> Altought, **Travis-CI will send us an e-mail summarizing any code deploy** - and it can count as a communication - a forever alone one,  
+> but it is.
+
+You can also check some cool stuff like [**RedMine**](https://www.redmine.org/) for full project management,  
+[**Trello**](https://trello.com/) and [**Wekan**](https://wekan.github.io/) for Kanban. For ChatOps, [**Slack**](https://slack.com/)  
+is the beloved one, but you can also try [**Rocket.Chat**](https://rocket.chat/) and [**HUBOT**](https://hubot.github.com/).  
+
 **2nd. - Code**: 
 **3rd. - Build**
 **4th. - Test**
