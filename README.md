@@ -2,7 +2,11 @@
 
 <div align="center">
   <a href="https://travis-ci.org/">
-    <img src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.svg" width="175">
+    <img src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.svg" width="100">
+    <img src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.svg" width="100">
+    <img src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.svg" width="100">
+    <img src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.svg" width="100">
+    <img src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.svg" width="100">
   </a>
 </div>
 
