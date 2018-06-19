@@ -15,6 +15,7 @@
 </div>
 
 A quick guide for a full operational **DevOps** pipeline for complete beginners.
+<sub>To whom it may concern technical part starts on chapter 4... Mr. Know it all.</sub>
 
 ##  Index <a name="index"></a>
 
@@ -214,7 +215,7 @@ And that's it! So, let's open the box to check what's inside.
 > <sup>2</sup>More theory about Lean could be found at this Wikipedia article [https://en.wikipedia.org/wiki/Lean_manufacturing](https://en.wikipedia.org/wiki/Lean_manufacturing).  
 > <sup>3</sup>Again, a Wikipedia article can save the day presenting you to Agile Software Development at [https://en.wikipedia.org/wiki/Agile_software_development](https://en.wikipedia.org/wiki/Agile_software_development).  
 > <sup>4</sup>You can check SRE out, for free, on this link: [https://landing.google.com/sre/book.html](https://landing.google.com/sre/book.html).  
-> <sup>5</sup>Go on and melt your brain with this. I assure you that I'll never be the same after knowing a little about IaC on [https://en.wikipedia.org/wiki/Infrastructure_as_Code](https://en.wikipedia.org/wiki/Infrastructure_as_Code).</sub>
+> <sup>5</sup>Go on and melt your brain with this. I assure you that you'll never be the same after knowing a little about IaC on [https://en.wikipedia.org/wiki/Infrastructure_as_Code](https://en.wikipedia.org/wiki/Infrastructure_as_Code).</sub>
 
 <a name="pipelines"></a>
 ### Pipelines <sup>([back to index](#index))</sup>
