@@ -231,12 +231,12 @@ discuss about pipelines in concecpt DevOps.
 **In short the major DevOps goal is:**
 - **a.** take a real life problem and turn it into a requirement via Agile methods,
 - **b.** allowing people to develop some code intended to solve that problem,
-- **c.** deliver a usable product on shortest possible time via collaboration, automation and active monitoring, 
-- **d.** allowing problem owners to check if that could be solved using provided code.
+- **c.** deliver a usable product on shortest possible time via collaboration, automation active monitoring and testing, 
+- **d.** allowing problem owners to check if it could be solved using provided code.
 
 Take a look at the flow: **there's no conditional in this case**. It really look a lot like a pipeline, right?
 
-That's the goal: understand some key steps within software development cycle to glue them up with Agile methodologies, 
+**That's the goal**: understand some key steps within software development cycle to glue them up with Agile methodologies, 
 automation and monitoring to **create a collaborative pipeline between all areas related with software development, being 
 that responsible for coding or not**.
 
@@ -249,11 +249,10 @@ to mantain any existing server;
 needed both on infrastructure and coding;
 - And, sometimes, have a mechanism called **Continous Deployment** that deliver software on production in a blink of an eye.
 
-> Note that Continuous Deployment makes a straight fowaerd DevOps pipeline. In other cases, without it, you may need a approval chain in order 
+> Note that Continuous Deployment makes a straight forward DevOps pipeline. In other cases without it you may need a approval chain in order 
 to mantain traceability and assure quality to deliveries, being this the only conditional step on your pipeline.
 
-Wonderful, now you got the concept about pipelines! So, it's time to take a step backward to introduce you the **CAMS 
-concept**, that stands of **Culture, Automation, Measurement and Sharing**, being those the **core values** of the DevOps Movement.
+So, it's time to take a step backward to introduce you the **CAMS concept**, that stands of **Culture, Automation, Measurement and Sharing**, being those the **core values** of the DevOps Movement.
 
 - **Culture**: Extreme collaboration between peers to create a unique working-force enconpassing both operational and 
 coding staff, aimed on final product quality improvements.
@@ -264,9 +263,8 @@ your software development lifecycle and consequently your pipelines.
 - **Sharing**: Give (and be expect to hear) a lot of feedback about anything related to your software development 
 lifecycle. Responsability sharing is also welcomed, allowing people to focus on value-added tasks only.
 
-> Knowing about pipelines is cool and even make more sense when you start thinking about how the whole IT ecosystem  
-> must cooperate in order to share both skills and hard work to improve even more software development. That's  
-> what DevOps are about! 
+> Knowing about pipelines is cool and it even make more much sense when you start thinking about whole IT ecosystem  
+> **cooperating to share both skills and hard work to improve even more software development**. That's what DevOps are about! 
 
 With all that on mind, it's even more easy to look at this flow and feel very, very comfortable:
 
@@ -274,6 +272,7 @@ IMAGE
 
 So, let's go a little deeper into pipelines. I want discuss a little about what a **development pipeline** (which 
 we'll deploy later on this tutorial) would look like.
+
 Remember pipelines goal? **It's delivery a product, from coding to production, making use of all previouslly 
 discussed perks, right?** Right.
 
@@ -281,10 +280,10 @@ Knowing this, you (and your peers) may have to **write a code**, **manage it via
 like GitHub, **perform tests** (both unity and integration), save the artifacts over a **repository** to then, if 
 applicable, **deploy it over production** environment - *end-to-end, baby*.
 
-All this process must be automated, having different competences working togheter, from developer, testing, security, 
+All this process must be automated, having different competences working togheter, from developer to testing, security, 
 operations and even managers.
 
-For all this to happen, in this specific scenario, your pipeline will have to be align with our business model, 
+For all this to happen, in this specific scenario, your pipeline will have to be aligned to your business model, 
 making use of specific milestones overtime:
 
 IMAGEM
@@ -298,4 +297,19 @@ repeat - never make use of cleartext or hardcoded credentials, tokens, keys amon
 - **Traceable**: Provide means to monitor phases and stages, including metrics to identify failures and wastes. 
 Don't forget that event logs are also important to this matter.
 
-And we're done. Time for us to discuss a little about **technical gear**, shall we? #coolstuffahead
+And we're done about theory this time. Time for us to discuss a little about technical gear shall we? **#CoolStuffAhead**
+
+<a name="tools"></a>
+### Tools <sup>([back to index](#index))</sup>
+
+Do you remeber that milestones that we'v spoken before? Remember also about Agile, CI/CD and stuff? Fine! It's time to pin 
+technology over teory, showing you where we should use some cool tools like GitHub, Travis and Heroku, among others.
+
+**1st. - Collaboration**: The very first step must rely on tools to encourage collaboration and idea sharing between peers. ]
+It may count both with planning and communication tools.
+**2nd. - Code**: 
+**3rd. - Build**
+**4th. - Test**
+**5th. - Deploy**
+**6th. - Operate**
+**7th. - Monitor**
