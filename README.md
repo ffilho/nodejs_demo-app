@@ -153,10 +153,10 @@ If you won't believe me, go around and Google a little about some cool DevOps de
 realize that in the end it will relate to none beyond that previosly spoken.
 
 > For your convenience, I've made the Googling bellow:  
-> **Amazon:** [https://aws.amazon.com/devops/what-is-devops/](https://aws.amazon.com/devops/what-is-devops/)  
-> **Wikipedia:** <a href="https://en.wikipedia.org/wiki/DevOps">https://en.wikipedia.org/wiki/DevOps</a>  
-> **Gartner:** <a href="https://www.gartner.com/it-glossary/devops">https://www.gartner.com/it-glossary/devops</a>  
-> **Atlasian:** <a href="https://www.atlassian.com/devops">https://www.atlassian.com/devops</a>  
+> **Amazon:** [https://aws.amazon.com/devops/what-is-devops/] (https://aws.amazon.com/devops/what-is-devops/)  
+> **Wikipedia:** [https://en.wikipedia.org/wiki/DevOps] (https://en.wikipedia.org/wiki/DevOps)
+> **Gartner:** [https://www.gartner.com/it-glossary/devops] (https://www.gartner.com/it-glossary/devops)
+> **Atlasian:** [https://www.atlassian.com/devops] (https://www.atlassian.com/devops)
 
 It's nice to say that DevOps has its origins on movements like **Agile Manifesto<sup>1</sup>** and **Lean<sup>2</sup>**, being it **both 
 disruptive and delivery focused by its on nature**.
@@ -210,8 +210,8 @@ Despites all procedural rites and stuff, keep in mind that you'll have to:
 
 And that's it! So, let's open the box to check what's inside.
 
-> <sup>1</sup>If you're looking for nothing but a cool manifesto to read, take a look at Agile Manifesto at <a href="http://agilemanifesto.org/">http://agilemanifesto.org/</a>.  
-> <sup>2</sup>More theory about Lean could be found at this Wikipedia article <a href="https://en.wikipedia.org/wiki/Lean_manufacturing">https://en.wikipedia.org/wiki/Lean_manufacturing</a>.  
-> <sup>3</sup>Again, a Wikipedia article can save the day presenting you to Agile Software Development at <a href="https://en.wikipedia.org/wiki/Agile_software_development">https://en.wikipedia.org/wiki/Agile_software_development</a>.  
-> <sup>4</sup>You can check SRE out, for free, on this link: <a href="https://landing.google.com/sre/book.html">https://landing.google.com/sre/book.html</a>.  
-> <sup>5</sup>Go on and melt your brain with this. I assure you that I'll never be the same after knowing a little about IaC on <a href="https://en.wikipedia.org/wiki/Infrastructure_as_Code">https://en.wikipedia.org/wiki/Infrastructure_as_Code</a>.  
+> <sup>1</sup>If you're looking for nothing but a cool manifesto to read, take a look at Agile Manifesto at [http://agilemanifesto.org/] (http://agilemanifesto.org/).  
+> <sup>2</sup>More theory about Lean could be found at this Wikipedia article [https://en.wikipedia.org/wiki/Lean_manufacturing] (https://en.wikipedia.org/wiki/Lean_manufacturing).  
+> <sup>3</sup>Again, a Wikipedia article can save the day presenting you to Agile Software Development at [https://en.wikipedia.org/wiki/Agile_software_development] (https://en.wikipedia.org/wiki/Agile_software_development).  
+> <sup>4</sup>You can check SRE out, for free, on this link: [https://landing.google.com/sre/book.html] (https://landing.google.com/sre/book.html).  
+> <sup>5</sup>Go on and melt your brain with this. I assure you that I'll never be the same after knowing a little about IaC on [https://en.wikipedia.org/wiki/Infrastructure_as_Code] (https://en.wikipedia.org/wiki/Infrastructure_as_Code).  
