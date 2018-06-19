@@ -221,6 +221,7 @@ And that's it! So, let's open the box to check what's inside.
 
 At this point, you may be asking "*where do I begin*", right? The very first stone must be put over a specific 
 knowledege: **pipelines**.
+
 *And, what the heck is a pipeline?* Well, it's like a workflow, but without a lot of conditional fluxes within, 
 being (almost) **straight from beginning to the end**.
 
@@ -228,10 +229,10 @@ being (almost) **straight from beginning to the end**.
 discuss about pipelines in concecpt DevOps.
 
 **In short the major DevOps goal is:**
-**a.** take a real life problem and turn it into a requirement via Agile methods,
-**b.** allowing people to develop some code intended to solve that problem,
-**c.** deliver a usable product on shortest possible time via collaboration, automation and active monitoring, 
-**d.** allowing problem owners to check if that could be solved using provided code.
+- **a.** take a real life problem and turn it into a requirement via Agile methods,
+- **b.** allowing people to develop some code intended to solve that problem,
+- **c.** deliver a usable product on shortest possible time via collaboration, automation and active monitoring, 
+- **d.** allowing problem owners to check if that could be solved using provided code.
 
 Take a look at the flow: **there's no conditional in this case**. It really look a lot like a pipeline, right?
 
