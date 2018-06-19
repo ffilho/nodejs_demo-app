@@ -67,7 +67,7 @@ a git installation;
 
 > **Disclaimer:** This tutorial is far, far away for being a full reference on 
 any shown technology or tool, being only a quick-start guide for beginners. 
-If you aren't a newcomer to DevOps you may find it boring to death. You've been warned.
+If you aren't a newcomer to DevOps you may find it boring to death. **You've been warned**.
 
 <a name="intro"></a>
 ## Intro
@@ -158,7 +158,7 @@ realize that in the end it will relate to none beyond that previosly spoken.
 > **Gartner:** <a href="https://www.gartner.com/it-glossary/devops">https://www.gartner.com/it-glossary/devops</a>  
 > **Atlasian:** <a href="https://www.atlassian.com/devops">https://www.atlassian.com/devops</a>  
 
-It's nice to say that DevOps has its origins on movements like **Agile Manifesto** and **Lean**, being it **both 
+It's nice to say that DevOps has its origins on movements like **Agile Manifesto<sup>1</sup>** and **Lean<sup>2</sup>**, being it **both 
 disruptive and delivery focused by its on nature**.
 
 In wich concern Lean and factories, is common to **eliminate wasteful tasks to optimize deliveries, aiming less 
@@ -171,17 +171,17 @@ can I say... **agility? Yes, a lot of this**.
 By breaking down every single paradigm related with software development, **Agile gave us with speed to 
 understand, prototype, code, test and deliver as never seen before**.
 
->This methods (*among other methods and methodologies not related here*) were around for a long time, being 
-used for specific purposes - none of they related to put IT team altogether aiming to improve delivery.
+Keep in mind that DevOps relies on agile and **isn't possible to have a DevOps culture without Agile Methods<sup>3</sup>**, like
+**Scrum or Kanban**.
+
+> Lean was precursor to other well know methodology: Agile. In case, every agile methodology has its roots  
+> somehow related with Lean. Strange how things got together overtime, didn't it?
 
 With all that methods in one hand and a lot of support tools on another, it was just a matter of time to put 
 everything togheter and let DevOps concept occured naturally.
 And that was what really happend on 2003 when **Google decide to converge a lot of things together to create 
 it's own way to manage their infrastructure**, creating what will be DevOps embryo: **Google Site Reliability 
-Engineering**.
-
-> You can check SRE out, for free, on this link: <a href="https://landing.google.com/sre/
-book.html">https://landing.google.com/sre/book.html</a>
+Engineering<sup>4</sup>**.
 
 Later that year Google made SRE public on book format kick-starting what we know as DevOps today. That allowed 
 individuals to **understand how to use it on its own premisses**, making it a great alternative to improve delivery 
@@ -190,4 +190,36 @@ performance and product quality when compared to old-fashioned models.
 Today it's being constantly updated thanks to the community, supporting IT operations all over the globe - *go on, 
 Google it*.
 
-And that's it! Enough with history by now. Let's open the box to see what's inside.
+Enough with history by now. Let's try to fix some ideias a little before taking another step:
+
+**What can I get when running my business using DevOps?**
+- Improve both collaboration and commuication between development and infrastructure areas;
+- More agile deliveries, and we're talking about daily or hourly delivery cycles in here;
+- Less complex coding;
+- Much less failures when deploying features since your code tends to be less complex;
+- Performance, resilience and reliability (both for your team and code);
+- Value driven bussiness.
+
+**What do I need to have to start my DevOps operantion?**
+Despites all procedural rites and stuff, keep in mind that you'll have to:
+- Automatize every little single piece of work;
+- Promove configuration management practices;
+- Centralize all kind of log events for complete monitoring your environment;
+- Have your infrastructure as a code (in other words, start using IaC<sup>5</sup>);
+- Monitor any step related with service providing or software development.
+
+And that's it! So, let's open the box to check what's inside.
+
+---
+
+<sup>1</sup>If you're looking for nothing but a cool manifesto to read, take a look at Agile Manifesto at <a href
+="http://agilemanifesto.org/">http://agilemanifesto.org/</a>.
+<sup>2</sup>More theory about Lean could be found at this Wikipedia article <a href="https://en.wikipedia.org/wiki
+/Lean_manufacturing">https://en.wikipedia.org/wiki/Lean_manufacturing</a>.
+<sup>3</sup>Again, a Wikipedia article can save the day presenting you to Agile Software Development at <a href="h
+ttps://en.wikipedia.org/wiki/Agile_software_development">https://en.wikipedia.org/wiki/Agile_software_development</a>.
+<sup>4</sup>You can check SRE out, for free, on this link: <a href="https://landing.google.com/sre/book.html">htt
+ps://landing.google.com/sre/book.html</a>
+<sup>5</sup>Go on and melt your brain with this. I assure you that I'll never be the same after knowing a little about
+IaC on <a href="https://en.wikipedia.org/wiki/Infrastructure_as_Code">https://en.wikipedia.org/wiki/Infrastructure_as_
+Code</a>.
