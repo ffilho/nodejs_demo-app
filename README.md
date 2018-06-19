@@ -53,7 +53,7 @@ A quick guide for a full operational **DevOps** pipeline for complete beginners.
 10.  [**Credits, references and more**](#credits)
 
 <a name="assumptions"></a>
-## Assumptions
+## Assumptions <sup>([back to index](#index))</sup>
 
 For this tutorial I'll assume that you'll have, at least:
 
@@ -70,7 +70,7 @@ any shown technology or tool, being only a quick-start guide for beginners.
 If you aren't a newcomer to DevOps you may find it boring to death. **You've been warned**.
 
 <a name="intro"></a>
-## Intro
+## Intro <sup>([back to index](#index))</sup>
 
 Assuming that you are, as I am, **a complete beginner in all this DevOps thing**, I'll 
 clarify some subjects before we begin, trying to make things a little straightforward to you.
@@ -215,3 +215,6 @@ And that's it! So, let's open the box to check what's inside.
 > <sup>3</sup>Again, a Wikipedia article can save the day presenting you to Agile Software Development at [https://en.wikipedia.org/wiki/Agile_software_development](https://en.wikipedia.org/wiki/Agile_software_development).  
 > <sup>4</sup>You can check SRE out, for free, on this link: [https://landing.google.com/sre/book.html](https://landing.google.com/sre/book.html).  
 > <sup>5</sup>Go on and melt your brain with this. I assure you that I'll never be the same after knowing a little about IaC on [https://en.wikipedia.org/wiki/Infrastructure_as_Code](https://en.wikipedia.org/wiki/Infrastructure_as_Code).</sub>
+
+<a name="pipelines"></a>
+### Pipelines <sup>([back to index](#index))</sup>
