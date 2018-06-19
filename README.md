@@ -89,15 +89,15 @@ It's not about absence of information. It's all about the **excess of good infor
 how it is scattered all around**. And it can be even worst when you realize that **real good 
 technical material is presented in a very bad teaching way.**
 
->Do the math: excess plus scattering, multiplied by lack of empathy equals "I quit".
+> Do the math: excess plus scattering, multiplied by lack of empathy equals "I quit".
 
 How you can support learning if most part people of your readers **give up on learning due 
 overwork trying to understand what to learn**?
 
->I wanted to learn about Node.js and I learnt.
-I wanted to learn about DevOps and I learnt, also.
-I wanted to put both things together, in a simple way and...
->**I didn't find nothing at all!**
+> I wanted to learn about Node.js and I learnt.  
+> I wanted to learn about DevOps and I learnt, also.  
+> I wanted to put both things together, in a simple way and...  
+> **I didn't find nothing at all!**  
 
 Every single article or tutorial that I found lead me to a complex environment explanation or to
 a very, very simple simple example on a particular tool. **Always too shallow or too deep: never 
@@ -152,11 +152,11 @@ focused on applications and services lifecycle.
 If you won't believe me, go around and Google a little about some cool DevOps definitions and you 
 realize that in the end it will relate to none beyond that previosly spoken.
 
->For your convenience, I've made the Googling bellow:
-**Amazon:** <a href="https://aws.amazon.com/devops/what-is-devops/">https://aws.amazon.com/devops/what-is-devops/</a>
-**Wikipedia:** <a href="https://en.wikipedia.org/wiki/DevOps">https://en.wikipedia.org/wiki/DevOps</a>
-**Gartner:** <a href="https://www.gartner.com/it-glossary/devops">https://www.gartner.com/it-glossary/devops</a>
->**Atlasian:** <a href="https://www.atlassian.com/devops">https://www.atlassian.com/devops</a>
+> For your convenience, I've made the Googling bellow:  
+> **Amazon:** <a href="https://aws.amazon.com/devops/what-is-devops/">https://aws.amazon.com/devops/what-is-devops/</a>  
+> **Wikipedia:** <a href="https://en.wikipedia.org/wiki/DevOps">https://en.wikipedia.org/wiki/DevOps</a>  
+> **Gartner:** <a href="https://www.gartner.com/it-glossary/devops">https://www.gartner.com/it-glossary/devops</a>  
+> **Atlasian:** <a href="https://www.atlassian.com/devops">https://www.atlassian.com/devops</a>  
 
 It's nice to say that DevOps has its origins on movements like **Agile Manifesto** and **Lean**, being it **both 
 disruptive and delivery focused by its on nature**.
