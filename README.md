@@ -219,7 +219,7 @@ So, it's time to take a step backward to introduce you the **CAMS concept**, tha
 
 With all that on mind, it's even more easy to look at this flow and feel very, very comfortable:
 
-IMAGE
+IMAGEM
 
 So, let's go a little deeper into pipelines. I want discuss a little about what a **development pipeline** (which we'll deploy later on this tutorial) would look like.
 
@@ -257,10 +257,17 @@ You can also check some cool stuff like [**RedMine**](https://www.redmine.org/) 
 In other words, we must elect a **IDE** and a **SCM**, or a *Integrated Development Environment* and a *Sorce Code Management* if you prefer to keep things more verbose. This couple will be used **along our DevOps pipeline end-to-end** as you'll see later.
 There's a plenty of options webwide and your team are free to choose whatever tool they feel confortable to use and configure, specially what concerns **integrations between them**.
 
-> Since your're actually reading throuht GitHub, it's no point to go elsewhere to manage our code, right? So, It goes without saying that **GitHub will be our SCM**.  
-> About our IDE, feel free to **choose whatever you want** (*remember that also VIm could help you a lot with proper adjustment*). In my case, who's writing through a non-administrative Windows (**ugh!**) profile which prevents me to install anything on my machine, there's no better option then goes with a **SaaS IDE**, specially a awesome product by CodeAnywhere, which gives me a **fully integrated, easy configurable and containerized development environment for free**, for one GitHub repository.
+> Since your're actually reading throuht GitHub, it's no point to go elsewhere to manage our code, right? So, It goes without saying that **[GitHub](https://github.com/) will be our SCM**.  
+> About our IDE, feel free to **choose whatever you want** (*remember that also [VIm](https://www.vim.org/) could help you a lot if proper adjusted*). In my case, who's writing through a non-administrative Windows (**ugh!**) profile which prevents me to install anything on my machine, there's no better option then goes with a **SaaS IDE**, specially a awesome product by [**CodeAnywhere**](https://codeanywhere.com/), which gives me a **fully integrated, easy configurable and containerized development environment for free** (for only one GitHub repository - there's no free lunch).
 
-**Build**: 
+If you're up to test something new, you may can take a look at some cool IDE/Text Editors like [**Brackets**](http://brackets.io/), [**Atom**](https://atom.io/) or something from [**JetBrains**](https://www.jetbrains.com/). For your SCM anyting that came from [**git**](https://git-scm.com/) would be nice, like [**GitLab**](https://about.gitlab.com/) or even a raw git deploy - *not applicable for our tutorial, since Travis-CI only integrates with GitHub*.
+
+**Build**: The build steps encompasses more then compile and praying. Over DevOps perspective, **build step is more to integrate and prepare for the next steps then to build action itself**. Of course that we'll do that, but our main goal here is **automation**.
+Whenever possible, we need to automate any task related with software development lifecycle: from compiling to distribution, deploy, configuration and so on. This automatize frenzy will be **conducted by our CI solution**, which will be responsible to automatize both compiling (if applicable), test, distributuion, infrastructure provision and even monitoring.
+
+> No surprises if I tell you that our **CI role will be played by none other then Travis-CI**. With Travis we'll collect source code on our GitHub repo, compile it if needed, perform whatever tests we'll like to, comunicate the team about the deploy and finally provision all needed infrastrutucte for it to be deployed - **all automatically, from the very fist commit to production deploy**.
+
+If you ask me, **Travis-CI is the shortest path to success to see our pipeline working**, but there's a lot more to check webwide if you want to, of course. If so, it's nice to know a little about [**Jenkins**](https://jenkins.io/) and about how [**GitLab**](https://about.gitlab.com/concurrent-devops/) aims to cover all DevOps lifecycle by itself.  
 
 **Test**: 
 
