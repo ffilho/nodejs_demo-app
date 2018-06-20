@@ -190,14 +190,10 @@ At this point, you may be asking "*where do I begin*", right? The very first sto
 >What I've just said could seem a little out of scope by now, but keep in mind this concept before we start to discuss about pipelines in concecpt DevOps.
 
 **In short the major DevOps goal is:**
-**a.** take a real life problem and turn it into a requirement via Agile methods,
-
-**b.** allowing people to develop some code intended to solve that problem,
-
-**c.** deliver a usable product on shortest possible time via collaboration, automation active monitoring and testing,
-
-**d.** allowing problem owners to check if it could be solved using provided code.
-
+- **a.** take a real life problem and turn it into a requirement via Agile methods,
+- **b.** allowing people to develop some code intended to solve that problem,
+- **c.** deliver a usable product on shortest possible time via collaboration, automation active monitoring and testing, 
+- **d.** allowing problem owners to check if it could be solved using provided code.
 
 Take a look at the flow: **there's no conditional in this case**. It really look a lot like a pipeline, right?
 
@@ -250,14 +246,21 @@ And we're done about theory this time. Time for us to discuss a little about tec
 
 Do you remeber that milestones that we'v spoken before? Remember also about Agile, CI/CD and stuff? Fine! It's time to pin technology over teory, showing you where we should use some cool tools like GitHub, Travis and Heroku, among others.
 
-**1st. - Collaboration**: The very first step must rely on tools to **encourage collaboration and idea sharing between peers**, counting both with planning and communication tools. 
+**1st. - Collaboration**: The very first step must rely on tools to **encourage collaboration and idea sharing between peers**, counting both with planning and communication tools. There's no need to gather whole IT crowd togheter without giving it proper (and also cool) manners to talk, discuss and collaborate with each other.
 
 > For our example we'll use **GitHub's bult-in project tool**, that works like **Kanban** allowing us to plan and track every single activity related with this tutorial. A communication tools isn't necessary for our tutorial, being a little non-sense to chat alone.  
 > Altought, **Travis-CI will send us an e-mail summarizing any code deploy** - and it can count as a communication - a forever alone one, but it is.
 
 You can also check some cool stuff like [**RedMine**](https://www.redmine.org/) for full project management, [**Trello**](https://trello.com/) and [**Wekan**](https://wekan.github.io/) for Kanban. For ChatOps, [**Slack**](https://slack.com/) is the beloved one, but you can also try [**Rocket.Chat**](https://rocket.chat/) and [**HUBOT**](https://hubot.github.com/).
 
-**2nd. - Code**: 
+**2nd. - Code**: DevOps could sound a little useless if we don't use tools to help us out with the Dev portion of it. We must employ something to aid the coding labor plus another to manage it.
+Knowing it we must elect a IDE and a SCM, or Sorce Code Management if you prefer to keep things more verbose, to be used along our DevOps pipeline. There's a plenty of options webwide, and your team is free to choose whenever tool they feel confortable to use and configure, specially what concerns integrations between IDE's and SCM's.
+
+> Since your're actually reading throuht GitHub, it's no point to go elsewhere to manage our code, right? So, It goes without saying that GitHub will be our SCM.  
+> About IDE, feel free to choose whatever you want (remember that also VIm could help you a lot with proper adjustment). In my case, that englobes writing through a non-administrative Windows (ugh!) profile which prevents me to install anything on my machine, there's no better option then goes with a SaaS IDE, specially a awesome product provided by CodeAnywhere, which gives me a fully integrated, easy configurable and containerized development environment for free, for one GitHub.
+
+
+
 **3rd. - Build**
 **4th. - Test**
 **5th. - Deploy**
