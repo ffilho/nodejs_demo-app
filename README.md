@@ -164,7 +164,7 @@ Enough with history by now. Let's try to fix some ideias a little before taking 
 - Performance, resilience and reliability (both for your team and code);
 - Value driven bussiness.
 
-**What do I need to have to start my DevOps operantion?**
+**What do I need to have DevOps all over my operations?**
 Despites all procedural rites and stuff, keep in mind that you'll have to:
 - Automatize every little single piece of work;
 - Promove configuration management practices;
@@ -269,10 +269,36 @@ Whenever possible, we need to automate any task related with software developmen
 
 If you ask me, **Travis-CI is the shortest path to success to see our pipeline working**, but there's a lot more to check webwide if you want to, of course. If so, it's nice to know a little about [**Jenkins**](https://jenkins.io/) and about how [**GitLab**](https://about.gitlab.com/concurrent-devops/) aims to cover all DevOps lifecycle by itself.  
 
-**Test**: 
+**Test**: Automatize, remember? And it wouldn't be different with testing. We need to **ensure that your code stick to its requirements** and the best (and maybe the costless) way to do it is via extensive and automatic testing. For this, we must use **automatic tools that allow us to have high fidelity tests**, just like those manually executed.
 
-**Deploy**: 
+> Since my goal here is to **more teaching as possible** I'll focus our tests only on **code quality** via [**JSHint**](http://jshint.com/). If you're not fammiliar with this tools, JSHint detects **errors and potential problems** on your JavaScript code.  
+> For this case, we will focus on **bad coding detection particularly**, demonstrating how a **failed test could stop our code to be deployed over production**, showing you how a fully functional DevOps pipeline should look like.
 
-**Operate**: 
+I understand that testing is a very extense subject which concerns to a lot of variables from like **which language** you're programming to **how deeper you want to go** while testing. It really worth the chat but we're short on time for that.
+In what concerns our Node.js tutorial, it's also nice to take a look at [**Jasmine**](https://github.com/jasmine/jasmine) and maybe upgrade your test phase.
 
-**Monitor**: 
+> We're about start a important subject in which I'll try to be brief to not interfere with our tutorial. To this, I really need you to **think of Deploy as Operate siblings phases**, which are always holding hands because **they're dependents to deliver and allow code execution**.
+
+**Deploy**: Despite that sibling thing, keep in mind that **Deploy is one of the key phases** (and maybe the most critical at all) on our DevOps pipeline, since it's responsible to **hold everything in its right place to allow code to be executed**.
+Here we'll have **tools to manage changes over code and infrastructure**, allowing us to rely on a seamless automatic deploy process, having sometimes dashboards to trace every single activity.
+We can deploy over a **several infrastructures types, from containers to IaaS and PaaS, depending only of our requirements**.
+
+> We'll make use of [**Heroku's PaaS**](http://heroku.com/) to deploy our code. It's easy, it's simple, it works and it's free (almost). Actually, it may be **responsible for both Deploy and Operate phases, since it will handle both our Node.js code and IaC**. *For those unaware of Heroku or PaaS capabitlies, I would like to inform that your life is about to change, for good.*
+
+If you revolve around all deploy stuff I suggest you to read a little more about [**Sonatype Nexus**](https://www.sonatype.com/nexus-repository-sonatype). It's a very interesting tool to **manage and track both binaries and build artifacts, allowing you to manage release candidates**. If you're all about containers than other thing, [**Docker Hub**](https://hub.docker.com/) may be the right place for you. There you can **publish your artifacts and make use some extensive capabitlies to manage it**.
+
+**Operate**: Operation must unconditionally support deploy, period. This will allow us to **manage and provision whatever is necessary to mantain our pipeline working as expected** - and even better as planned sometimes. It will encompass both **configuration management and provision**, allowing us to actively control our environment.
+Needless to say, you may **have different tools flavors depending on which kind of infrastructure you opt to use**, going to containers specificities to operational system base, right?
+
+> As said, once we're using a PaaS provided by Heroku it will **managed also via Heroku**, being any **IaC change tracked by our commits on GitHub**. This may vary from environment to environment but your focus will be related to **track, provision and somehow manage your configuration**.
+
+At this point is nice to say that you can put all the pieces togheter to **create a nice Deploy-Operate play**. Depending of what you're trying to do, you may need something like a **Management Platform** or maybe a **Orchestration Service** or even make a **cross-service deploy using both IaaS/PaaS for different providers**.
+
+**Monitor**: DevOps is about monitoring also, remember? Thus, **via automtic monitoring we can better understand how our infrastructure goes over workloads and how our code performs when used** - and it goes beyond performance. I'm talking about **security incidents, unavailabilities, undesired behavior** and further more.
+The monitoring process must cover all teams, being **any existing solution/tools integrated to act with promptiness during an incident**. 
+
+> Unfortunatelly, **Heroku's monitoring features are paid** - *sorry*.  
+> Despites being paid, they offer **several monitoring features, allowing you to track your PaaS end-to-end**, contributing to debug, tunning or security - you name it..
+> *We can think on a workaround to solve this issue later. Until now, please, be content with what we achieved until now*.
+
+Why don't you quit sobbing about paid features and try to understand a little more about monitoring? You can **learn a lot reading about [ELK](https://www.elastic.co/elk-stack)** ([**ElasticSearch**](https://www.elastic.co/products/elasticsearch), [**Logstash**](https://www.elastic.co/products/logstash) and [**Kibana**](https://www.elastic.co/products/kibana)) or also understand how to use [**Splunk's**](https://www.splunk.com/en_us/download.html) free tier to monitor something that you may have around.
