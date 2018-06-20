@@ -260,10 +260,12 @@ There's a plenty of options webwide and your team are free to choose whatever to
 > Since your're actually reading throuht GitHub, it's no point to go elsewhere to manage our code, right? So, It goes without saying that **GitHub will be our SCM**.  
 > About our IDE, feel free to **choose whatever you want** (*remember that also VIm could help you a lot with proper adjustment*). In my case, who's writing through a non-administrative Windows (**ugh!**) profile which prevents me to install anything on my machine, there's no better option then goes with a **SaaS IDE**, specially a awesome product by CodeAnywhere, which gives me a **fully integrated, easy configurable and containerized development environment for free**, for one GitHub repository.
 
+**Build**: 
 
+**Test**: 
 
-**Build**
-**Test**
-**Deploy**
-**Operate**
-**Monitor**
+**Deploy**: 
+
+**Operate**: 
+
+**Monitor**: 
