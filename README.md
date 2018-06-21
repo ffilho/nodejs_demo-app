@@ -62,14 +62,16 @@ A quick guide for a fully operational **DevOps pipeline** for complete beginners
 For this tutorial I'll assume that you'll have, at least:
 
 - **Theory**: very basic knowledge about DevOps (meaning, purpose and main characteristics);
-- **Infrastructure**: a place to play around like a workstation or SaaS where you can deploy 
-a git installation;
+- **Infrastructure**: a place to play around, like a workstation where you can install a git instance;
 - **CLI**: ability to operate your own git instance (pull, commit and push at least);
 - **Code**: some programming background (JavaScript is nice in this case!);
 - **Patience**: node.js sometimes can be harsh;
 - **Time**: keep in mind that CI/CD can be challenging sometimes.
 
-> **Disclaimer:** This tutorial is far, far away for being a full reference on any shown technology or tool, being only a quick-start guide for beginners. If you aren't a newcomer to DevOps you may find it boring to death. **You've been warned**.
+<div align="center">
+> **Note:** This tutorial is far, far away for being a full reference on any technology or tool discussed until now. Its only purpose is being a quick-start guide for beginners.  
+> If you aren't a newcomer to DevOps you may find it boring to death. **You've been warned**.
+</div>
 
 <a name="intro"></a>
 ## Intro <sup>([back to index](#index))</sup>
